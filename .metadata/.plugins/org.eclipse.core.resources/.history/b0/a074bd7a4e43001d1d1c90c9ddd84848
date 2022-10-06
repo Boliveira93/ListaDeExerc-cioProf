@@ -1,0 +1,12 @@
+package br.com.senai.revisao;
+
+public class Aeronave {
+	
+	public String mostrarLetreiroDigital() {
+		return "VoeAirlines Voando com você";
+	}
+	public void mostrarLetreiroDigital(String texto) {
+		System.out.println("VoeAirlines voando com você!");
+	}
+
+}

@@ -1,0 +1,29 @@
+package br.com.voeairlines.treinamentopoo;
+
+import java.util.Scanner;
+
+public class Principal {
+
+	public static void main(String[] args) {
+
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Lista de Exercício do Prof Romulo");
+
+		System.out.println("Professor escolha um número de 1 a 26: ");
+		int opcao = Integer.parseInt(sc.nextLine());
+		switch (opcao) {
+		case 1:
+			new Algoritmo01().resultado();
+			break;
+
+		case 2:
+			new Algoritmo02().resultado();
+			break;
+
+		case 3:
+
+		}
+
+	}
+
+}

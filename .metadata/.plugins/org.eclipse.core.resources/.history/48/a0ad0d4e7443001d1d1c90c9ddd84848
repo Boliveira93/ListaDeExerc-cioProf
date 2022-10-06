@@ -1,0 +1,22 @@
+package br.com.senai.revisao;
+
+public class Aeronave {
+	
+	private String modelo;
+	private String fabricante;
+	
+	
+	
+	public Aeronave(String modelo, String fabricante) {
+		super();
+		this.modelo = modelo;
+		this.fabricante = fabricante;
+	}
+	public String mostrarLetreiroDigital() {
+		return "VoeAirlines Voando com você";
+	}
+	public void mostrarLetreiroDigital(String texto) {
+		System.out.println("VoeAirlines voando com você!");
+	}
+
+}

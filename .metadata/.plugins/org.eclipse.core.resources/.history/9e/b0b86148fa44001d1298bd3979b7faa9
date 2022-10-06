@@ -1,0 +1,13 @@
+package br.com.voeairlines.treinamentopoo;
+
+public class Algoritmo05 {
+	
+	public void resultado() {
+		System.out.println("Algoritmo05");
+		System.out.println("Ler um número inteiro e imprimi-lo");
+		System.out.println("Digite um número: ");
+		int numero = sc.nextInt();
+		System.out.println("\nResultado:");
+	}
+	
+}

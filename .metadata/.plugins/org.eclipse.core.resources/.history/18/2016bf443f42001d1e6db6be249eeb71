@@ -1,0 +1,33 @@
+package br.com.voeairlines.treinamentopoo;
+
+import java.util.Scanner;
+
+public class Principal {
+
+	public static void main(String[] args) {
+
+		Scanner sc = new Scanner(System.in);
+
+		System.out.println("Professor escolha um número de 1 a 26: ");
+		int opcao = Integer.parseInt(sc.nextLine());
+		switch (opcao) {
+		case 1:
+			Algoritmo01 alg1 = new Algoritmo01();
+			System.out.println("Resultado:" + alg1.imprimirMensagem());
+			break;
+
+		case 2:
+			System.out.println("Algoritmo 02");
+			System.out.println("Informe seu Nome: ");
+			String nome = sc.nextLine();
+			Algoritmo02 alg02 = new Algoritmo02();
+			System.out.printf("O nome informado é %s", alg02.escrevaSeuNome(nome));
+			break;
+
+		case 3:
+
+		}
+
+	}
+
+}

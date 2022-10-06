@@ -1,0 +1,22 @@
+package br.com.voeairlines.treinamentopoo;
+
+import java.util.Scanner;
+
+public class Algoritmo08 {
+	
+	Scanner sc = new Scanner(System.in);
+	
+	public void resultado() {
+		System.out.println("Algoritmo07");
+		System.out.println("Criar um algoritmo que leia nome, endereço e mostre posteriomente.");
+		System.out.println("Digite seu nome: ");
+		String nome = sc.nextLine();
+		System.out.println("Informa seu endereço: ");
+		String endereco = sc.nextLine();
+		System.out.println("Digite seu Telefone: ");
+		String telefone = sc.nextLine();
+		System.out.println("\nResultado: ");
+		System.out.println("Nome: "+nome+ "Endereço: "+endereco+"Telefone"+telefone);
+	}
+
+}
